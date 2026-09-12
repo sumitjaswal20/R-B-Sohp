@@ -3,6 +3,7 @@ import Header from './Header';
 import HeroBanner from './HeroBanner';
 import FeaturingNow from './FeaturingNow'
 import NewArrivals from './NewArrivals'
+import { WhoWeAre } from './WhoWeAre';
 
 export default function App() {
   return (
@@ -17,6 +18,8 @@ export default function App() {
         <FeaturingNow />
         {/* 4. Horizontal Seasonal Card Showcase Grid */}
         <NewArrivals />
+        {/*Adding map and company info*/}
+        <WhoWeAre />
       </main>
 
       {/* Placeholder content region for product grids */}
